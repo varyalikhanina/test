@@ -1,0 +1,27 @@
+.promo__form-button {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 33px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #000;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  transition: 0.1s ease-in-out;
+}
+
+.promo__form-button:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .promo__form-button {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}

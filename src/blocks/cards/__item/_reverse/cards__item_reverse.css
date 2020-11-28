@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .cards__item_reverse {
+    flex-direction: row-reverse;
+  }
+
+  .cards__item_reverse > .cards__item-text {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards__item_reverse {
+    flex-direction: column !important;
+  }
+
+  .cards__item_reverse > .cards__item-text {
+    padding-left: 0;
+  }
+}

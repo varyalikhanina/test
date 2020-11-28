@@ -1,0 +1,10 @@
+.promo__program-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+  .promo__program-container {
+    display: block;
+  }
+}

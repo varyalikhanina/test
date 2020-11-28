@@ -1,0 +1,36 @@
+@import url("__program-container/promo__program-container.css");
+@import url("__description/promo__description.css");
+@import url("__figures/promo__figures.css");
+@import url("__figure/promo__figure.css");
+@import url("__info/promo__info.css");
+@import url("__form/promo__form.css");
+@import url("__form-input/promo__form-input.css");
+@import url("__form-button/promo__form-button.css");
+@import url("__offer/promo__offer.css");
+@import url("__offer-info/promo__offer-info.css");
+@import url("__offer-wrapper/promo__offer-wrapper.css");
+@import url("__offer-price/promo__offer-price.css");
+@import url("__offer-addition/promo__offer-addition.css");
+@import url("__offer-tag/promo__offer-tag.css");
+@import url("__offer-discount/promo__offer-discount.css");
+@import url("__offer-date/promo__offer-date.css");
+@import url("__offer-plan/promo__offer-plan.css");
+@import url("__offer-old/promo__offer-old.css");
+
+.promo {
+  max-width: 1270px;
+  margin: 0 auto 96px;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo {
+    max-width: calc(100% - 32px * 2);
+    margin: 0 auto 76px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .promo {
+    max-width: calc(100% - 20px * 2);
+  }
+}

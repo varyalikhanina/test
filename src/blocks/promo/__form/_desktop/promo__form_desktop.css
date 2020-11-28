@@ -1,0 +1,5 @@
+@media screen and (max-width: 1000px) {
+  .promo__form_desktop {
+    display: none !important;
+  }
+}

@@ -1,0 +1,12 @@
+@import url("_right/cards__item-text_right.css");
+
+.cards__item-text {
+  max-width: 325px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 500px) {
+  .cards__item-text {
+    padding: 16px 0;
+  }
+}

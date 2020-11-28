@@ -1,0 +1,25 @@
+@import url("__container/cards__container.css");
+@import url("__item/cards__item.css");
+@import url("__image/cards__image.css");
+@import url("__item-name/cards__item-name.css");
+@import url("__item-text/cards__item-text.css");
+@import url("__item-job/cards__item-job.css");
+@import url("__item-time/cards__item-time.css");
+@import url("__item-description/cards__item-description.css");
+
+.cards {
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .cards {
+    max-width: calc(100% - 32px * 2);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards {
+    max-width: 312px;
+  }
+}

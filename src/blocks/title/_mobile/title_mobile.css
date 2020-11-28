@@ -1,0 +1,18 @@
+@media screen and (min-width: 601px) {
+  .title_mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title_mobile {
+    display: block;
+    font-size: 30px !important;
+    line-height: 36px !important;
+    background-color: transparent !important;
+  }
+  .title_mobile span {
+    display: inline;
+    background-color: #1519ff;
+  }
+}

@@ -1,0 +1,24 @@
+.promo__offer-info {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #676767;
+  margin: 0 auto 32px;
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__offer-info {
+    font-size: calc((100vw - 768px) / (768 - 360) * (14 - 12) + 12px);
+    line-height: 24px;
+    margin: 0 auto 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .promo__offer-info {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 auto 24px;
+  }
+}

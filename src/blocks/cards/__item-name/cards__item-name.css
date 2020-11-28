@@ -1,0 +1,50 @@
+.cards__item-name {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000;
+  margin: 24px auto 4px;
+}
+
+@media screen and (max-width: 1300px) {
+  .cards__item-name {
+    font-size: 19px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .cards__item-name {
+    margin: 4px auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cards__item-name {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards__item-name {
+    margin: 20px auto 4px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cards__item-name {
+    margin: 10px auto 4px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards__item-name {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 auto 4px;
+  }
+}

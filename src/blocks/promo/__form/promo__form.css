@@ -1,0 +1,7 @@
+@import url("_desktop/promo__form_desktop.css");
+@import url("_mobile/promo__form_mobile.css");
+
+.promo__form {
+  display: flex;
+  flex-direction: column;
+}

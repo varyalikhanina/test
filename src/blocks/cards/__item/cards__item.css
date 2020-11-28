@@ -1,0 +1,19 @@
+@import url("_reverse/cards__item_reverse.css");
+
+.cards__item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 33px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards__item {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards__item {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,15 @@
+.cards__item-text_right {
+  padding-left: 32px;
+}
+
+@media screen and (max-width: 1240px) {
+  .cards__item-text_right {
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards__item-text_right {
+    padding-left: 32px;
+  }
+}

@@ -1,0 +1,18 @@
+.promo__offer-tag {
+  background-color: #fef653;
+  padding: 10px 20px;
+  width: max-content;
+  height: 73px;
+}
+
+@media screen and (max-width: 1000px) {
+  .promo__offer-tag {
+    height: 61px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .promo__offer-tag {
+    padding: 10px 20px;
+  }
+}

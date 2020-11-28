@@ -1,0 +1,23 @@
+@import url("_desktop/title_desktop.css");
+@import url("_mobile/title_mobile.css");
+
+.title {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc((100vw - 768px) / (2000 - 320) * (72 - 45) + 45px);
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  background-color: #1519ff;
+  max-width: max-content;
+  margin: 96px auto 48px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 48px;
+    line-height: 58px;
+    margin: 76px auto 48px;
+  }
+}

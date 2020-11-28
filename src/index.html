@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="cards">
+      <h1 class="title title_desktop">Voluptatem illo assumenda</h1>
+      <h2 class="title title_mobile">
+        <span>Voluptatem illo</span><span>assumenda</span>
+      </h2>
+      <div class="cards__container">
+        <div class="cards__item">
+          <img src="<%=require('./images/girl-1.png')%>"" alt="Девушка номер
+          один" class="cards__image" />
+          <div class="cards__item-text cards__item-text_right">
+            <h2 class="cards__item-name">Izabella8</h2>
+            <p class="cards__item-job">Global Infrastructure Architect</p>
+            <p class="cards__item-time">08:30 – 09:00</p>
+            <p class="cards__item-description">
+              Qui eos a quia dolorem sapiente deserunt ut expedita sunt. Quia
+              perspiciatis quo excepturi id dolor voluptatem aut adipisci.
+            </p>
+          </div>
+        </div>
+        <div class="cards__item">
+          <img src="<%=require('./images/girl-2.png')%>"" alt="Девушка номер
+          два" class="cards__image" />
+          <div class="cards__item-text cards__item-text_right">
+            <h2 class="cards__item-name">Izabella8</h2>
+            <p class="cards__item-job">Global Infrastructure Architect</p>
+            <p class="cards__item-time">08:30 – 09:00</p>
+            <p class="cards__item-description">
+              Qui eos a quia dolorem sapiente deserunt ut expedita sunt. Quia
+              perspiciatis quo excepturi id dolor voluptatem aut adipisci.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="cards__container">
+        <div class="cards__item cards__item_reverse">
+          <div class="cards__item-text">
+            <h2 class="cards__item-name">Izabella8</h2>
+            <p class="cards__item-job">Global Infrastructure Architect</p>
+            <p class="cards__item-time">08:30 – 09:00</p>
+            <p class="cards__item-description">
+              Qui eos a quia dolorem sapiente deserunt ut expedita sunt. Quia
+              perspiciatis quo excepturi id dolor voluptatem aut adipisci.
+            </p>
+          </div>
+          <img src="<%=require('./images/girl-3.png')%>"" alt="Девушка номер
+          три" class="cards__image" />
+        </div>
+        <div class="cards__item cards__item_reverse">
+          <div class="cards__item-text">
+            <h2 class="cards__item-name">Izabella8</h2>
+            <p class="cards__item-job">Global Infrastructure Architect</p>
+            <p class="cards__item-time">08:30 – 09:00</p>
+            <p class="cards__item-description">
+              Qui eos a quia dolorem sapiente deserunt ut expedita sunt. Quia
+              perspiciatis quo excepturi id dolor voluptatem aut adipisci.
+            </p>
+          </div>
+          <img src="<%=require('./images/girl-4.png')%>"" alt="Девушка номер
+          четыре" class="cards__image" />
+        </div>
+      </div>
+    </section>
+    <section class="promo">
+      <h1 class="title title_desktop">Voluptatem illo assumenda</h1>
+      <h1 class="title title_mobile">
+        <span>Voluptatem illo</span><span>assumenda</span>
+      </h1>
+      <div class="promo__program-container">
+        <div class="promo__description">
+          <div class="promo__figures">
+            <div class="promo__figure"><span>start:</span>october 29</div>
+            <div class="promo__figure"><span>remained:</span>15 seats</div>
+          </div>
+          <p class="promo__info">
+            Use the cross-platform SAS bandwidth, then you can calculate the
+            mobile bandwidth!
+          </p>
+          <form class="promo__form promo__form_desktop">
+            <input
+              class="promo__form-input"
+              type="email"
+              placeholder="Your email"
+            />
+            <input
+              class="promo__form-input"
+              type="tel"
+              placeholder="Your phone"
+            />
+            <input
+              class="promo__form-input"
+              type="name"
+              placeholder="Your name"
+            />
+            <button type="submit" class="promo__form-button">subscribe</button>
+          </form>
+        </div>
+        <div class="promo__offer-container">
+          <div class="promo__offer">
+            <h3 class="promo__offer-info">Labore qui et animi.</h3>
+            <div class="promo__offer-wrapper">
+              <div class="promo__offer-text">
+                <p class="promo__offer-price">4 900 ₽</p>
+                <p class="promo__offer-addition">per month</p>
+              </div>
+              <div class="promo__offer-tag">
+                <p class="promo__offer-discount">-40%</p>
+                <p class="promo__offer-date">until 28 december</p>
+              </div>
+            </div>
+            <p class="promo__offer-plan">installment plan without discount</p>
+            <p class="promo__offer-old">5000 ₽/month</p>
+          </div>
+          <form class="promo__form promo__form_mobile">
+            <input
+              class="promo__form-input"
+              type="email"
+              placeholder="Your email"
+            />
+            <input
+              class="promo__form-input"
+              type="tel"
+              placeholder="Your phone"
+            />
+            <input
+              class="promo__form-input"
+              type="name"
+              placeholder="Your name"
+            />
+            <button type="submit" class="promo__form-button">subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </body>
+</html>

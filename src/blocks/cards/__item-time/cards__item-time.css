@@ -1,0 +1,37 @@
+.cards__item-time {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000;
+  margin: 0 auto 12px;
+}
+
+@media screen and (max-width: 1300px) {
+  .cards__item-time {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cards__item-time {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards__item-time {
+    margin: 0 auto 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards__item-time {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
